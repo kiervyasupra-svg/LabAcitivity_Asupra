@@ -19,7 +19,7 @@ def bubble_sort(arr):
         print("Iteration #", i+1, arr)
     return arr
 
-# Main menu
+#Main
 print("Choose a program:")
 print("1 - Tower of Hanoi")
 print("2 - Bubble Sort")
@@ -35,3 +35,4 @@ elif choice == 2:
     print("Output values =", sorted_values)
 else:
     print("Invalid choice")
+
